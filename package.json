@@ -1,6 +1,6 @@
 {
   "name": "passport-mixcloud",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MixCloud OAuth2 strategy for Passport.",
   "keywords": [
     "passport",
@@ -26,7 +26,9 @@
   "main": "./lib/passport-mixcloud",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-oauth": "~0.1.1"
+    "passport-oauth": "~0.1.1",
+    "passport-mixcloud" : ">=0.0.1",
+    "request" : ">=2.29.1"         
   },
   "engines": {
     "node": ">= 0.4.0"
